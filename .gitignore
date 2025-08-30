@@ -1,3 +1,12 @@
+# MATLAB
+*slx.*
+*.asv
+slprj
+*.slxc
+Lab*
+LAb*
+~*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

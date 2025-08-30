@@ -1,0 +1,4109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/18/25||07:09:10" using="Simscape Multibody Link Version 7.4" from="SolidWorks 27.5.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AerialPlatformTotal-NoTube" uid="AerialPlatformTotal-NoTube" version="2708">
+<AssemblyFile name="AerialPlatformTotal-NoTube.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="TopView-1" uid="TopView-1" entityUid="TopView*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>4.2317428207100757e-15 1.7198949066853129e-15 -0.060224309645035723</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo SSPS-105-1" uid="Servo SSPS-105-1" entityUid="Servo SSPS-105*:*Default">
+<Transform>
+<Rotation>-0.0086943631862852547 2.094027603146372e-15 -0.99996220331009777 2.8172911446234605e-14 1 1.8491519708413798e-15 0.99996220331009777 -2.8155769404615904e-14 -0.0086943631862852547</Rotation>
+<Translation>0.018238414647208732 -0.11700000000000077 -0.087566771698707038</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm_2nd-1" uid="Arm_2nd-1" entityUid="Arm_2nd*:*Default">
+<Transform>
+<Rotation>-0.99996220331009766 -0.00044957159303625049 0.008682732092939684 1.6493298493993648e-15 0.9986622259622342 0.051708398120183435 -0.0086943631862851194 0.051706443713894358 -0.9986244798357623</Rotation>
+<Translation>0.0094582687412941846 -0.16737664460273896 0.0021251388822157713</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo D5545GS-1" uid="Servo D5545GS-1" entityUid="Servo D5545GS*:*Default">
+<Transform>
+<Rotation>-0.99996220331009733 0.0086827320929798463 0.00044957159303606455 3.9087258616962196e-15 0.051708398120183123 -0.99866222596223442 -0.0086943631863252158 -0.99862447983576219 -0.051706443713894053</Rotation>
+<Translation>-0.0028127104683628485 -0.1204281430895258 0.033239022839382341</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo D5545GS-3" uid="Servo D5545GS-3" entityUid="Servo D5545GS*:*Default">
+<Transform>
+<Rotation>-0.00044957159303843093 -0.11413027640074422 0.99346569034570709 0.99866222596223309 -0.051419829281617653 -0.0054552353576206945 0.051706443713917027 0.99213420521890039 0.11400071277461597</Rotation>
+<Translation>-0.053555984811787014 -0.15854879236181835 -0.047082886365376608</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo PGS-CX II-1" uid="Servo PGS-CX II-1" entityUid="Servo PGS-CX II*:*Default">
+<Transform>
+<Rotation>-1 1.3467005288703149e-13 0 0 -1.4022394603874768e-16 -0.99999999999999967 -1.3467005288703149e-13 -1 1.4022394603875152e-16</Rotation>
+<Translation>1.0869742733786032e-14 0.042200000000001694 -0.049224309645035727</Translation>
+</Transform>
+</Instance>
+<Instance name="wrist_1st_joint-1" uid="wrist_1st_joint-1" entityUid="wrist_1st_joint*:*Default">
+<Transform>
+<Rotation>0.9934656903457072 -0.00044957159303598871 -0.11413027640074415 -0.0054552353576205461 0.99866222596223431 -0.051419829281595011 0.11400071277461596 0.051706443713894573 0.99213420521890183</Rotation>
+<Translation>-7.3232136895677661e-05 -0.16082024057233341 -0.0027469450835720874</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm_1st-1" uid="Arm_1st-1" entityUid="Arm_1st*:*Default">
+<Transform>
+<Rotation>0.99996220331009755 0.0083993172702409354 -0.0022457561329899912 -1.6589076744504424e-15 0.25830024406320556 0.96606468930237188 0.0086943631862851107 -0.96602817525488471 0.25829048116897896</Rotation>
+<Translation>-0.0062465301455358838 -0.1941207747141431 0.428171902520946</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm_Base-2" uid="Arm_Base-2" entityUid="Arm_Base*:*Default">
+<Transform>
+<Rotation>0.99996220331009755 -0.0086943631862852547 -1.8480615903186608e-15 -1.8491519708382843e-15 -1.1737359874830808e-16 -0.99999999999999989 0.0086943631862852547 0.99996220331009755 -1.3344636123589666e-16</Rotation>
+<Translation>0.00025648371399955425 -0.13699999999999826 -0.089723194642683635</Translation>
+</Transform>
+</Instance>
+<Instance name="Device-1" uid="Device-1" entityUid="Device*:*Default">
+<Transform>
+<Rotation>-4.0063995649448751e-15 -1 -1.2246467991474777e-16 1 -4.0063995649448743e-15 -1.1737359874882663e-16 1.1737359874882584e-16 -1.2246467991474777e-16 1</Rotation>
+<Translation>0.15398130817692893 0.0020000000000023311 0.8898478621565622</Translation>
+</Transform>
+</Instance>
+<Instance name="ProbrHolder-1" uid="ProbrHolder-1" entityUid="ProbrHolder*:*Default">
+<Transform>
+<Rotation>-0.9934656903457072 0.0029442638102857677 0.11409317865912465 0.0054552353576209044 0.99974959808548469 0.021702109001310609 -0.11400071277461583 0.022182705843229445 -0.99323298628687939</Rotation>
+<Translation>0.001582120592681242 -0.15970318154424587 -0.017119156295895534</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-1" uid="Tmotor_MN505S_Base-1" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.9699619785377539 0.24325657276037946 -1.6489634986748667e-16 1.700029006457271e-16 0 1 0.24325657276037946 -0.96996197853775401 0</Rotation>
+<Translation>-0.42542705980258833 0.031879689135366991 0.21264836917465355</Translation>
+</Transform>
+</Instance>
+<Instance name="Prob-1" uid="Prob-1" entityUid="Prob*:*Default">
+<Transform>
+<Rotation>-0.11409317865912572 0.050025461649805904 -0.9922097559337848 -0.021702109001311205 0.99836759674415543 0.052831432274687576 0.99323298628687939 0.027560750316772797 -0.11282127456124785</Rotation>
+<Translation>0.12600073192045783 -0.13603703167831599 -1.1002397278417375</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-2" uid="Tmotor_MN505S_Skin-2" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>0.47875142349499888 -0.87795049661214519 -1.340241176752354e-16 0 -1.5265566588595902e-16 1 -0.87795049661214497 -0.47875142349499894 0</Rotation>
+<Translation>-0.58142109249222484 0.030879689135367022 0.79090317953834821</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-2" uid="Tmotor_MN505S_Base-2" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.95387977826639581 0.30018888822614942 -1.8388068845354155e-16 2.1510571102112408e-16 0 1 0.30018888822614948 -0.95387977826639581 0</Rotation>
+<Translation>-0.58142109249222285 0.031879689135366929 0.79090317953834965</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-3" uid="Prop_22_66_CCW-3" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>-0.10466086246903403 0 -0.99450797074092767 0 1 -2.4806545706468341e-16 0.99450797074092789 0 -0.10466086246903407</Rotation>
+<Translation>-0.5817254083827974 0.062379689135367025 0.79087115368786998</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo X20-7512-1" uid="Servo X20-7512-1" entityUid="Servo X20-7512*:*Default">
+<Transform>
+<Rotation>-0.0022457561329884759 -0.0083993172702413466 0.99996220331009755 0.96606468930241862 -0.25830024406303148 -1.6620455080035464e-15 0.25829048116880488 0.96602817525493145 0.0086943631862851228</Rotation>
+<Translation>-0.058385851010345463 -0.17678850168983601 0.42096610405238483</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-1" uid="Tmotor_MN505S_Skin-1" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>0.98852545948516957 0.15105434766875747 -1.2663481374630692e-16 -1.1449174941446927e-16 0 1 0.15105434766875747 -0.98852545948516979 0</Rotation>
+<Translation>-0.42542705980258994 0.030879689135366928 0.21264836917465041</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-2" uid="Prop_22_66_CW-2" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>0.14454701533488687 -5.6551985316843911e-16 0.98949793347827464 0 1 4.7878367936959876e-16 -0.98949793347827442 0 0.14454701533488687</Rotation>
+<Translation>-0.42512427696554356 0.062379689135366921 0.21269260004558901</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-1" uid="Prop_22_66_CW-1" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>-0.14454701533488604 -3.0964814046186007e-16 -0.98949793347827464 -2.7755575615628914e-16 1 -2.2204460492503131e-16 0.98949793347827497 2.0816681711721685e-16 -0.14454701533488606</Rotation>
+<Translation>-0.42572984263963631 0.062379689135366921 0.2126041383037118</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-4" uid="Prop_22_66_CCW-4" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>0.10466086246903403 0 0.99450797074092767 0 1 2.4806545706468341e-16 -0.99450797074092789 0 0.10466086246903407</Rotation>
+<Translation>-0.58111677660165229 0.062379689135367025 0.79093520538882645</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-5" uid="Prop_22_66_CW-5" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>0.19622070253171911 -1.7885616680325499e-16 -0.98055975641363058 0 1 -1.7129372137873129e-16 0.98055975641363058 0 0.19622070253171911</Rotation>
+<Translation>-0.70624888378363015 0.062379689135366803 1.3482300241500336</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-3" uid="Tmotor_MN505S_Base-3" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.95997399243726422 -0.28008915338523804 -4.3801767768414379e-16 4.3715031594615539e-16 0 1 -0.2800891533852381 -0.95997399243726411 1.1102230246251565e-16</Rotation>
+<Translation>-0.70594883599687019 0.031879689135366839 1.3481699813151899</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-2" uid="Prop_22_66_CCW-2" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>-0.88555454293383329 -1.9775847626135601e-16 0.46453541467712656 -1.1102230246251565e-16 1 1.6653345369377348e-16 -0.46453541467712656 1.6653345369377348e-16 -0.88555454293383318</Rotation>
+<Translation>-0.31339029956844849 0.062379689135367004 1.7864131026783319</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-5" uid="Tmotor_MN505S_Skin-5" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>0.26025388246557329 0.96554022011596985 0 0 0 0.99999999999999989 0.96554022011596985 -0.26025388246557324 0</Rotation>
+<Translation>0.31353244574783673 0.030879689135366338 1.7866840792087535</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-4" uid="Tmotor_MN505S_Base-4" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.93969262078590732 0.34202014332567154 -2.2551405187698492e-16 1.3877787807814457e-16 1.6653345369377348e-16 1 0.34202014332567165 -0.93969262078590732 0</Rotation>
+<Translation>-0.31353244574787287 0.031879689135366859 1.7866840792087442</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-3" uid="Tmotor_MN505S_Skin-3" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>-0.98182957757545009 0.18976480336989052 -4.4160179845448505e-16 -4.3368086899420172e-16 0 1 0.18976480336989052 0.98182957757545009 0</Rotation>
+<Translation>-0.70594883599687352 0.030879689135366803 1.3481699813151882</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-6" uid="Prop_22_66_CW-6" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>-0.19622070253171942 -5.0999158133178608e-16 0.98055975641363058 -1.1102230246251564e-16 1 4.9788572695610562e-16 -0.98055975641363058 0 -0.19622070253171942</Rotation>
+<Translation>-0.7056487882101169 0.062379689135366803 1.3481099384803428</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-5" uid="Tmotor_MN505S_Base-5" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.93969262078590599 -0.34202014332567526 -2.8229600316066283e-16 1.3877787807814452e-16 -4.4408920985006252e-16 1 -0.34202014332567521 -0.93969262078590599 -3.6984252371602736e-16</Rotation>
+<Translation>0.31353244574784134 0.031879689135366887 1.7866840792087524</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-4" uid="Tmotor_MN505S_Skin-4" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>-0.55242527802869734 0.83356242249451029 -2.5394932339311434e-16 -1.6653345369377346e-16 1.9428902930940235e-16 1 0.83356242249451018 0.55242527802869745 0</Rotation>
+<Translation>-0.31353244574784478 0.030879689135367025 1.7866840792087491</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-1" uid="Prop_22_66_CCW-1" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>0.88555454293383329 -1.9775847626135601e-16 -0.46453541467712656 1.1102230246251565e-16 1 -1.6653345369377348e-16 0.46453541467712656 1.6653345369377348e-16 0.88555454293383318</Rotation>
+<Translation>-0.31367459192724106 0.062379689135367018 1.7869550557391662</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-9" uid="Prop_22_66_CW-9" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>0.96380696441307778 -2.1510571102112408e-16 0.26660107904667019 3.3306690738754696e-16 1 1.1102230246251565e-16 -0.2666010790466703 0 0.96380696441307745</Rotation>
+<Translation>0.31361402472677369 0.062379689135366331 1.7869790007009332</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-10" uid="Prop_22_66_CW-10" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>-0.96380696441307745 0 -0.26660107904667052 0 1 1.1102230246251565e-16 0.26660107904667046 0 -0.96380696441307745</Rotation>
+<Translation>0.31345086676889977 0.062379689135366324 1.7863891577165738</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-6" uid="Tmotor_MN505S_Skin-6" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>-0.24970360753938164 0.96832231637085509 -1.1338586126867669e-15 -2.2204460492503126e-16 1.11369247157711e-15 0.99999999999999989 0.96832231637085509 0.24970360753938164 0</Rotation>
+<Translation>0.70594883599687452 0.030879689135366716 1.3481699813151942</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm3-6-2" uid="Arm3-6-2" entityUid="Arm3-6*:*Default">
+<Transform>
+<Rotation>0.95997399243726655 0 0.28008915338523027 0 1 0 -0.28008915338523027 0 0.95997399243726655</Rotation>
+<Translation>-0.70594883599687008 0.028879689135366933 1.3481699813151899</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm1-8-2" uid="Arm1-8-2" entityUid="Arm1-8*:*Default">
+<Transform>
+<Rotation>-0.96996197853775268 0 -0.24325657276038476 -1.6306400674181987e-16 1 0 0.24325657276038481 0 -0.96996197853775268</Rotation>
+<Translation>0.42542705980259721 0.028879689135366989 0.21264836917464941</Translation>
+</Transform>
+</Instance>
+<Instance name="Camera-1" uid="Camera-1" entityUid="Camera*:*Default">
+<Transform>
+<Rotation>0.98542443706216698 0.016869603424219712 0.16927520586613043 -0.029639132345190271 0.99687708497510674 0.073195623403031804 -0.16751179264319155 -0.07714592621677259 0.98284704069026974</Rotation>
+<Translation>-0.0045654842742072106 0.13942248960769582 -0.011745282362575167</Translation>
+</Transform>
+</Instance>
+<Instance name="CamBase-1" uid="CamBase-1" entityUid="CamBase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.6293233647533906e-14 0.10882416768708192 0.014775690354966318</Translation>
+</Transform>
+</Instance>
+<Instance name="Cam-RP-Arm-1" uid="Cam-RP-Arm-1" entityUid="Cam-RP-Arm*:*Default">
+<Transform>
+<Rotation>0.98542443706216643 0.029219962675840854 0.16758541888223699 -0.029639132345190694 0.99956066440903135 0 -0.16751179264319466 -0.0049670864093748681 0.98585755937562547</Rotation>
+<Translation>-0.00021141536289401584 0.13982482669046856 0.013797283425207266</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm1-8-1" uid="Arm1-8-1" entityUid="Arm1-8*:*Default">
+<Transform>
+<Rotation>0.9699619785377529 0 -0.24325657276038459 0 1 0 0.24325657276038445 0 0.96996197853775279</Rotation>
+<Translation>-0.42542705980258932 0.028879689135366964 0.21264836917465157</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm2-7-1" uid="Arm2-7-1" entityUid="Arm2-7*:*Default">
+<Transform>
+<Rotation>-0.95387977826639414 0 -0.30018888822615447 -2.5673907444456745e-16 0.99999999999999989 0 0.30018888822615447 0 -0.95387977826639414</Rotation>
+<Translation>0.58142109249223062 0.028879689135367054 0.7909031795383471</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm2-7-2" uid="Arm2-7-2" entityUid="Arm2-7*:*Default">
+<Transform>
+<Rotation>0.95387977826639414 0 -0.30018888822615447 0 1.0000000000000002 0 0.30018888822615442 0 0.95387977826639425</Rotation>
+<Translation>-0.58142109249222285 0.02887968913536703 0.79090317953834965</Translation>
+</Transform>
+</Instance>
+<Instance name="Cam-YR-Arm-1" uid="Cam-YR-Arm-1" entityUid="Cam-YR-Arm*:*Default">
+<Transform>
+<Rotation>0.9858575593756258 0 -0.16758541888223627 0 -1 0 -0.16758541888223627 0 -0.9858575593756258</Rotation>
+<Translation>-0.0014787863390471653 0.14132416768708198 0.015027068483289677</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm3-6-1" uid="Arm3-6-1" entityUid="Arm3-6*:*Default">
+<Transform>
+<Rotation>-0.95997399243726644 1.1078360946296072e-16 0.28008915338523027 0 0.99999999999999989 -1.814893211403787e-16 -0.28008915338523033 -1.5673344792908073e-16 -0.95997399243726633</Rotation>
+<Translation>0.70594883599687785 0.028879689135366926 1.3481699813151924</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm4-5-1" uid="Arm4-5-1" entityUid="Arm4-5*:*Default">
+<Transform>
+<Rotation>-0.34202014332566777 0 0.93969262078590898 0 1 0 -0.93969262078590876 1.1102230246251565e-16 -0.34202014332566766</Rotation>
+<Translation>0.31353244574784134 0.028879689135366888 1.7866840792087524</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm4-5-2" uid="Arm4-5-2" entityUid="Arm4-5*:*Default">
+<Transform>
+<Rotation>0.34202014332566755 0 0.93969262078590898 0 1 0 -0.93969262078590887 0 0.34202014332566755</Rotation>
+<Translation>-0.31353244574784034 0.028879689135366857 1.7866840792087499</Translation>
+</Transform>
+</Instance>
+<Instance name="Cover-2" uid="Cover-2" entityUid="Cover*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.37843528002445431 0.0020000000000017122 1.0100427543001591</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-6" uid="Tmotor_MN505S_Base-6" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.2800891533852215 -0.95997399243726911 -1.1631320906424492e-15 0 -1.1171619185290638e-15 1 -0.95997399243726922 -0.2800891533852215 -3.0531133177191805e-16</Rotation>
+<Translation>0.70594883599687785 0.031879689135366922 1.3481699813151924</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-7" uid="Prop_22_66_CCW-7" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>0.39443013249447378 7.4853317988399226e-16 -0.9189259331308437 -1.3877787807814457e-16 1.0000000000000002 7.7021722333370235e-16 0.91892593313084392 -2.0816681711721685e-16 0.39443013249447378</Rotation>
+<Translation>0.42514587174585067 0.062379689135367018 0.21276906338783946</Translation>
+</Transform>
+</Instance>
+<Instance name="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1" uid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1" entityUid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.035750000000004223 0.0020000000000018193 0.74450399008656376</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-14" uid="Prop_22_66_CW-14" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>-0.16878273898587628 4.9453336382913769e-16 0.98565327931297708 1.6653345369377346e-16 1 -4.7321446716743452e-16 -0.98565327931297708 0 -0.16878273898587628</Rotation>
+<Translation>0.58172269887881844 0.062379689135366984 0.79085153262244734</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-2" uid="FLAME 70A 6S-2" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>0.9538797782663937 0 -0.3001888882261563 0 1 0 0.3001888882261563 0 0.9538797782663937</Rotation>
+<Translation>-0.1849690125652885 0.00200000000000172 0.91776456381901772</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-7" uid="Tmotor_MN505S_Base-7" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.95387977826639336 -0.30018888822615708 1.6913553890773869e-16 0 1.6653345369377348e-16 0.99999999999999989 -0.30018888822615708 -0.95387977826639336 0</Rotation>
+<Translation>0.58142109249222851 0.031879689135367047 0.79090317953834854</Translation>
+</Transform>
+</Instance>
+<Instance name="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-3" uid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-3" entityUid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.11225000000000421 0.0020000000000018189 0.74450399008656376</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-5" uid="Prop_22_66_CCW-5" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>-0.12733041306347964 -1.951563910473908e-16 0.9918603560527478 -3.3306690738754696e-16 1 2.3592239273284576e-16 -0.99186035605274769 -3.6082248300317588e-16 -0.12733041306347961</Rotation>
+<Translation>0.7062523417267994 0.062379689135366706 1.3481310186631206</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-6" uid="Prop_22_66_CCW-6" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>0.12733041306348 0 -0.9918603560527478 4.4408920985006252e-16 1 0 0.9918603560527478 -4.4542450483142765e-16 0.12733041306348</Rotation>
+<Translation>0.70564533026694964 0.062379689135366699 1.3482089439672678</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CW-13" uid="Prop_22_66_CW-13" entityUid="Prop_22_66_CW*:*Default">
+<Transform>
+<Rotation>0.16878273898587601 3.8842633663453843e-16 -0.98565327931297708 -1.9428902930940237e-16 1 3.6081014447664109e-16 0.98565327931297708 1.3060309443469044e-16 0.16878273898587601</Rotation>
+<Translation>0.58111948610563879 0.062379689135366984 0.7909548264542493</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-7" uid="Tmotor_MN505S_Skin-7" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>-0.98674246049229719 0.16229392059349373 4.3107878378023656e-16 6.0021432268797525e-16 -1.6653345369377348e-16 1 0.16229392059349379 0.98674246049229719 0</Rotation>
+<Translation>0.58142109249222862 0.030879689135366983 0.79090317953834832</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Base-8" uid="Tmotor_MN505S_Base-8" entityUid="Tmotor_MN505S_Base*:*Default">
+<Transform>
+<Rotation>0.24325657276039975 0.96996197853774879 3.6011167881353869e-16 0 -3.6082248300317583e-16 0.99999999999999989 0.96996197853774879 -0.24325657276039975 0</Rotation>
+<Translation>0.42542705980259982 0.031879689135366873 0.21264836917464411</Translation>
+</Transform>
+</Instance>
+<Instance name="Tmotor_MN505S_Skin-8" uid="Tmotor_MN505S_Skin-8" entityUid="Tmotor_MN505S_Skin*:*Default">
+<Transform>
+<Rotation>-0.63939876162096609 -0.76887529784586961 0 0 0 1 -0.76887529784586972 0.63939876162096609 0</Rotation>
+<Translation>0.42542705980259665 0.030879689135367015 0.21264836917465052</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop_22_66_CCW-8" uid="Prop_22_66_CCW-8" entityUid="Prop_22_66_CCW*:*Default">
+<Transform>
+<Rotation>-0.39443013249447367 2.0469737016526324e-16 0.91892593313084381 1.8041124150158794e-16 1 -1.6653345369377348e-16 -0.9189259331308437 1.2490009027033011e-16 -0.39443013249447367</Rotation>
+<Translation>0.42570824785934253 0.062379689135367018 0.21252767496146158</Translation>
+</Transform>
+</Instance>
+<Instance name="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-2" uid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-2" entityUid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.040749999999995755 0.0020000000000018089 0.74450399008656376</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-1" uid="FLAME 70A 6S-1" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>0.95997399243726678 0 0.28008915338522955 0 1 0 -0.28008915338522955 0 0.95997399243726678</Rotation>
+<Translation>-0.27009117456691184 0.002000000000001792 1.2626687031211914</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-4" uid="FLAME 70A 6S-4" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>0.34202014332564945 0 0.93969262078591542 0 1 0 -0.93969262078591542 0 0.34202014332564945</Rotation>
+<Translation>-0.20559042513417397 0.0020000000000018766 1.3146875509526148</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-5" uid="FLAME 70A 6S-5" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>-0.34202014332566755 0 0.93969262078590876 0 1 0 -0.93969262078590876 0 -0.34202014332566755</Rotation>
+<Translation>0.20559042513417974 0.0020000000000018549 1.3146875509526146</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-6" uid="FLAME 70A 6S-6" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>-0.95387977826639347 0 -0.3001888882261563 0 1 0 0.3001888882261563 0 -0.95387977826639347</Rotation>
+<Translation>0.18496901256529685 0.0020000000000017287 0.91776456381901783</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-7" uid="FLAME 70A 6S-7" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>0.96996197853775246 0 -0.24325657276038523 0 1 0 0.24325657276038523 0 0.96996197853775246</Rotation>
+<Translation>-0.02774010308131071 0.0020000000000017152 0.33506550381587585</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-8" uid="FLAME 70A 6S-8" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>-0.96996197853775235 0 -0.24325657276038526 0 1 0 0.24325657276038526 0 -0.96996197853775235</Rotation>
+<Translation>0.032072756703449327 0.0020000000000017248 0.29067825212588477</Translation>
+</Transform>
+</Instance>
+<Instance name="Autopilot-1" uid="Autopilot-1" entityUid="Autopilot*:*Default">
+<Transform>
+<Rotation>1.2246467991473485e-16 -4.0063995649448751e-15 1 1.1737359874882471e-16 1 4.0063995649448751e-15 -1 1.1737359874882395e-16 1.2246467991473581e-16</Rotation>
+<Translation>0.061250000000004128 0.002000000000001969 0.47950399008656375</Translation>
+</Transform>
+</Instance>
+<Instance name="IMU-1" uid="IMU-1" entityUid="IMU*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.061250000000004204 0.0020000000000017647 0.39150399008656372</Translation>
+</Transform>
+</Instance>
+<Instance name="FLAME 70A 6S-3" uid="FLAME 70A 6S-3" entityUid="FLAME 70A 6S*:*Default">
+<Transform>
+<Rotation>-0.95997399243726689 0 0.28008915338522961 0 1 0 -0.28008915338522961 0 -0.95997399243726689</Rotation>
+<Translation>0.27289206610077127 0.0020000000000017226 1.253068963196823</Translation>
+</Transform>
+</Instance>
+<Instance name="On-Board-Computer-1" uid="On-Board-Computer-1" entityUid="On-Board-Computer*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.036749999999995779 0.0020000000000017647 0.45150399008656372</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Angle name="Angle5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.12738684265729805 0.017000000000000272 0.34761812593176983</Position>
+<Axis>-0.96996197853775268 0 -0.24325657276038479</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm1-8-1</Uid>
+</InstancePath>
+<Position>0.31327000000000016 -0.012499999999999997 0</Position>
+<Axis>1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm2-7-2</Uid>
+</InstancePath>
+<Position>0.31400000000000006 -0.012499999999999997 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.2876261207861775 0.017000000000000012 0.9435856667570397</Position>
+<Axis>-0.95387977826639414 0 -0.30018888822615453</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm3-6-2</Uid>
+</InstancePath>
+<Position>0.34011000000000013 -0.012500000000000001 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.38521192538365884 0.017000000000000015 1.3148137039226873</Position>
+<Axis>-0.95997399243726644 0 0.28008915338523027</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm4-5-2</Uid>
+</InstancePath>
+<Position>0.37820000000000031 -0.012500000000000032 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.18623254840202719 0.017000000000000001 1.4971547953972708</Position>
+<Axis>-0.3420201433256676 0 0.93969262078590876</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm4-5-1</Uid>
+</InstancePath>
+<Position>0.37819999999999987 -0.012500000000000049 0</Position>
+<Axis>1 -1.3399235696088659e-16 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.18623254840202719 0.017000000000000001 1.4971547953972708</Position>
+<Axis>0.3420201433256676 0 0.93969262078590876</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm3-6-1</Uid>
+</InstancePath>
+<Position>0.34010999999999991 -0.012500000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.38521192538365884 0.017000000000000015 1.3148137039226873</Position>
+<Axis>0.95997399243726644 0 0.28008915338523027</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm2-7-1</Uid>
+</InstancePath>
+<Position>0.31399999999999995 -0.012500000000000067 -1.1102230246251565e-16</Position>
+<Axis>1.0000000000000002 -2.3043857361979901e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.2876261207861775 0.017000000000000012 0.9435856667570397</Position>
+<Axis>0.95387977826639414 0 -0.30018888822615453</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="Angle12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm1-8-2</Uid>
+</InstancePath>
+<Position>0.31327000000000005 -0.01250000000000006 0</Position>
+<Axis>1.0000000000000002 -1.9673758598065908e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.12738684265729805 0.017000000000000272 0.34761812593176983</Position>
+<Axis>0.96996197853775268 0 -0.24325657276038479</Axis>
+</ConstraintGeometry>
+</Angle>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_2nd-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>0.011999999999999997 -0.017500000000000016 0.029999999999999985</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>-0.015999999999999997 0.50960000000000005 0.015000000000000027</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>0.0052132034355964404 0.029499999999999992 -0.08899999999999994</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>-0.014000000000000002 -0.017500000000000016 0.029999999999999957</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>-0.015999999999999997 0.058999999999999983 -0.061999999999999972</Position>
+<Axis>1.0000000000000002 0 -4.4607175096546463e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>-0.018700000000000001 -0.012749999999999984 0.021249999999999977</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo X20-7512-1</Uid>
+</InstancePath>
+<Position>0.0062500000000000194 0.023749999999999993 0.030999999999999996</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>-0.018700000000000001 -0.012749999999999984 0.0087499999999999939</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo X20-7512-1</Uid>
+</InstancePath>
+<Position>-0.00066999999999999005 0.025419999999999998 0.033499999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999985 0.50960000000000005 0.015000000000000013</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo SSPS-105-1</Uid>
+</InstancePath>
+<Position>0.027500000000000004 0.068999999999999992 0.010000000000000002</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>-0.060186752912848349 0.052999999999999978 -0.0039999999999999758</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo SSPS-105-1</Uid>
+</InstancePath>
+<Position>0.050999999999999969 -0.016000000000000028 -0.026000000000000006</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>0.046999999999999993 0.05899999999999999 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo SSPS-105-1</Uid>
+</InstancePath>
+<Position>0 0 -0.029000000000000015</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>0 0.029499999999999998 -0.13899999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo PGS-CX II-1</Uid>
+</InstancePath>
+<Position>0 0.011000000000000003 0.042199999999999974</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>0 0.029499999999999998 -0.14099999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo PGS-CX II-1</Uid>
+</InstancePath>
+<Position>0 0.011000000000000003 0.038199999999999977</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_2nd-1</Uid>
+</InstancePath>
+<Position>0.0057499999999999999 -0.027392730695564027 -0.0049999999999999975</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo D5545GS-1</Uid>
+</InstancePath>
+<Position>-0.0062500000000000003 0.02375 0.031000000000000014</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_2nd-1</Uid>
+</InstancePath>
+<Position>0.018250000000000006 -0.027392730695563999 -0.0049999999999999975</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo D5545GS-1</Uid>
+</InstancePath>
+<Position>0.0062500000000000056 0.02375 0.030999999999999986</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_2nd-1</Uid>
+</InstancePath>
+<Position>0.021999999999999999 0.018000000000000016 -0.46521249694973144</Position>
+<Axis>1.7352655770630498e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo D5545GS-1</Uid>
+</InstancePath>
+<Position>-0.00067000000000000046 0.025420000000000015 0.030500000000000013</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wrist_1st_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0045499999999999985 0.023000000000000017</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo D5545GS-1</Uid>
+</InstancePath>
+<Position>0 0.011000000000000006 0.042200000000000029</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wrist_1st_joint-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000313 0.023000000000000017</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo D5545GS-1</Uid>
+</InstancePath>
+<Position>0 0.011000000000000006 0.038200000000000026</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wrist_1st_joint-1</Uid>
+</InstancePath>
+<Position>0.039738970202910957 0.0062500000000000056 -0.061750000000000034</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo D5545GS-3</Uid>
+</InstancePath>
+<Position>0.0062499999999999778 -0.023749999999999986 0.030999999999999993</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wrist_1st_joint-1</Uid>
+</InstancePath>
+<Position>-0.0247 -0.0020000000000000018 -0.012250000000000011</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo D5545GS-3</Uid>
+</InstancePath>
+<Position>-0.00067000000000000393 0.025419999999999998 0.033500000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wrist_1st_joint-1</Uid>
+</InstancePath>
+<Position>0.039738970202910964 0.0062500000000000056 -0.014250000000000006</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo D5545GS-3</Uid>
+</InstancePath>
+<Position>0.0062499999999999778 0.023749999999999986 0.030999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prob-1</Uid>
+</InstancePath>
+<Position>1.1030000000000004 0.011288632463488435 -0.0058223801351001154</Position>
+<Axis>0 0.99887626375996486 0.047394194759840511</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ProbrHolder-1</Uid>
+</InstancePath>
+<Position>0.0063508529610858842 0.01100000000000001 0.025000000000000005</Position>
+<Axis>2.7321894746634712e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prob-1</Uid>
+</InstancePath>
+<Position>1.1030000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ProbrHolder-1</Uid>
+</InstancePath>
+<Position>0 0 0.025000000000000005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prob-1</Uid>
+</InstancePath>
+<Position>1.0780000000000003 -0.040953926814158575 -0.0019431619851534541</Position>
+<Axis>0 0.99887626375996474 0.047394194759840677</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ProbrHolder-1</Uid>
+</InstancePath>
+<Position>0 -0.016000999999999987 0.012500000000000001</Position>
+<Axis>-2.7321894746634712e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo D5545GS-3</Uid>
+</InstancePath>
+<Position>0 0.010999999999999996 0.042199999999999988</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ProbrHolder-1</Uid>
+</InstancePath>
+<Position>0.02 0 0.012500000000000008</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo D5545GS-3</Uid>
+</InstancePath>
+<Position>0 0.010999999999999996 0.038199999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ProbrHolder-1</Uid>
+</InstancePath>
+<Position>0.02 0 0.012500000000000008</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>0 0.029499999999999998 -0.13899999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm_Base-2</Uid>
+</InstancePath>
+<Position>0 0.029499999999999998 -0.13899999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.0062500000000000021 0.0086999999999999994 0.034750000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo PGS-CX II-1</Uid>
+</InstancePath>
+<Position>0.0062500000000000056 -0.023749999999999983 0.030999999999999979</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Device-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.029500000000000002</Position>
+<Axis>-2.4176978704425106e-16 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0055000000000000014</Position>
+<Axis>2.4176978704425106e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.032500000000000001</Position>
+<Axis>2.4176978704425106e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-1</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>-2.4176978704425106e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 -0.010305996431929865</Position>
+<Axis>-1.0000000000000002 0 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 -0.01030599643192992</Position>
+<Axis>-0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.032500000000000001</Position>
+<Axis>2.4176978704425106e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>-2.4176978704425106e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-2</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>2.4176978704425106e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-2</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-2</Uid>
+</InstancePath>
+<Position>0 0 0.0054999999999999979</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-2</Uid>
+</InstancePath>
+<Position>0 0 0.029500000000000005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-2</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-5</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.0030000000000000027 -0.010305996431929976</Position>
+<Axis>-1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-6</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 -0.010305996431930087</Position>
+<Axis>-1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.0054999999999999979</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.029499999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-5</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.032499999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.032499999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-6</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-5</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-6</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-5</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-4</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-4</Uid>
+</InstancePath>
+<Position>0 0 0.0054999999999999945</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-4</Uid>
+</InstancePath>
+<Position>0 0 0.029499999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-4</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-9</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000096 -0.010305996431929865</Position>
+<Axis>-1.0000000000000002 -1.3060081650676931e-16 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-10</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.010305996431929865</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-5</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.0055000000000000014</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.029499999999999995</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-5</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-9</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000096 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.032499999999999987</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric49">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.032499999999999987</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-10</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-9</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-10</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-9</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000096 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-5</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-6</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-6</Uid>
+</InstancePath>
+<Position>0 0 0.0054999999999999979</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-6</Uid>
+</InstancePath>
+<Position>0 2.2204460492503131e-16 0.029499999999999998</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-6</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-13</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.0030000000000000027 -0.010305996431929809</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-14</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 -0.010305996431929865</Position>
+<Axis>-1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-7</Uid>
+</InstancePath>
+<Position>0 0 0.0034999999999999962</Position>
+<Axis>1.1552254248016105e-16 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.0054999999999999945</Position>
+<Axis>-1.8385970528461682e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.029499999999999995</Position>
+<Axis>1.8385970528461682e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-7</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>-1.1552254248016105e-16 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric56">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-13</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0029999999999999888 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.032500000000000001</Position>
+<Axis>-1.8385970528461682e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric57">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.032500000000000001</Position>
+<Axis>-1.8385970528461682e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-14</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0030000000000000096 -0.00030599643192996684</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-13</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>1.8385970528461682e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident65">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>1.8385970528461682e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CW-14</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.00030599643192996684</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CW-13</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0029999999999999888 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-7</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>-1.8385970528461682e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-8</Uid>
+</InstancePath>
+<Position>0 0 0.0035000000000000031</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-8</Uid>
+</InstancePath>
+<Position>0 0 0.0055000000000000084</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric59">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-8</Uid>
+</InstancePath>
+<Position>0 0 0.029500000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-8</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0 -0.035749999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.1489523527795259 0.002 1.4947282997315978</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-2</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-3</Uid>
+</InstancePath>
+<Position>0 0.055 -0.071499999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-3</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-2</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0 0.055000000000000007 -0.071499999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-1</Uid>
+</InstancePath>
+<Position>-0.024249999999999883 0.016 0.014999999999999902</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.66627809688091655 -0.053351605457038223 0.19439825406175593</Position>
+<Axis>0.95997399243726667 0 -0.28008915338522966</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-1</Uid>
+</InstancePath>
+<Position>-0.024249999999999883 0.016 0.014999999999999902</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.33030725599913136 -0.053351605457038223 1.1320908769229094</Position>
+<Axis>0.28008915338523332 0 0.95997399243726567</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident94">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-4</Uid>
+</InstancePath>
+<Position>-0.024250000000000105 0.016 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.34022111303505481 -0.053351605457038223 0.12383035821366907</Position>
+<Axis>0.93969262078591553 0 0.3420201433256494</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-4</Uid>
+</InstancePath>
+<Position>-0.024250000000000105 0.016 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.48791245961117491 -0.053351605457038223 1.3405284654521126</Position>
+<Axis>0.34202014332570385 0 -0.93969262078589577</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident97">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-2</Uid>
+</InstancePath>
+<Position>-0.024249999999999966 0.016 -0.014999999999999902</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.28860443452753576 -0.053351605457038223 0.91706903490189817</Position>
+<Axis>0.30018888822614515 0 -0.95387977826639714</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-2</Uid>
+</InstancePath>
+<Position>-0.024249999999999994 0.016 0.015000000000000124</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.050453746190743956 -0.053351605457038223 0.01587794848043661</Position>
+<Axis>0.95387977826639359 0 0.30018888822615636</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-7</Uid>
+</InstancePath>
+<Position>-0.024250000000000008 0.016 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.0048498098926886852 -0.053351605457038223 0.0012162828638019041</Position>
+<Axis>0.96996197853775246 0 0.24325657276038531</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-7</Uid>
+</InstancePath>
+<Position>-0.024250000000000008 0.016 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.095639739813333693 -0.053351605457038223 0.38135418173286872</Position>
+<Axis>-0.24325657276038093 0 0.96996197853775357</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-5</Uid>
+</InstancePath>
+<Position>-0.024249999999999883 0.016 0.014999999999999958</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.29323648199578373 -0.053351605457038223 0.10672935104740199</Position>
+<Axis>0.93969262078590887 0 -0.34202014332566749</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-5</Uid>
+</InstancePath>
+<Position>-0.024249999999999883 0.016 0.014999999999999958</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.48791245961117491 -0.053351605457038223 1.3405284654521126</Position>
+<Axis>-0.34202014332570385 0 -0.93969262078589577</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.31630279832978564 -0.053351605457038223 1.0840921773011396</Position>
+<Axis>0.28008915338514245 0 -0.95997399243729209</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-3</Uid>
+</InstancePath>
+<Position>-0.024250000000000105 0.016 0.015000000000000124</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-3</Uid>
+</InstancePath>
+<Position>-0.024250000000000105 0.016 0.015000000000000124</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.66627809688091655 -0.053351605457038223 0.19439825406175593</Position>
+<Axis>-0.95997399243726667 0 -0.28008915338522966</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-6</Uid>
+</InstancePath>
+<Position>-0.024249999999999994 0.016 0.015000000000000013</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.28860443452753576 -0.053351605457038223 0.91706903490189817</Position>
+<Axis>-0.30018888822614515 0 -0.95387977826639714</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-6</Uid>
+</InstancePath>
+<Position>-0.024249999999999994 0.016 0.015000000000000013</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.050453746190743956 -0.053351605457038223 0.01587794848043661</Position>
+<Axis>-0.95387977826639359 0 0.30018888822615636</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident113">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.083476911175310517 -0.053351605457038223 0.33285608280598272</Position>
+<Axis>-0.24325657276036847 0 -0.96996197853775679</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-8</Uid>
+</InstancePath>
+<Position>-0.024250000000000015 0.016 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FLAME 70A 6S-8</Uid>
+</InstancePath>
+<Position>-0.024250000000000015 0.016 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.0048498098926886852 -0.053351605457038223 0.0012162828638019041</Position>
+<Axis>-0.96996197853775246 0 0.24325657276038531</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric78">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident125">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0030000000000000096 0.009694003568069931</Position>
+<Axis>-1.0000000000000002 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 0.009694003568069931</Position>
+<Axis>-1.0000000000000002 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident126">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643193007786</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643193007786</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident127">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-3</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0030000000000000027 -0.00030599643192996684</Position>
+<Axis>0 1 -2.2046231588243792e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-4</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.0030000000000000027 -0.00030599643192980031</Position>
+<Axis>0 1 2.2046231588243792e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric79">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-3</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0030000000000000027 -0.00030599643192996684</Position>
+<Axis>0 -1 2.2046231588243792e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-4</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.0030000000000000027 -0.00030599643192980031</Position>
+<Axis>0 -1 -2.2046231588243792e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident128">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-3</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.0030000000000000027 0.009694003568070042</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-4</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0.0096940035680700976</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident129">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-5</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192996684</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-6</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192985582</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric80">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-5</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192996684</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-6</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident130">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-5</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0.009694003568070042</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-6</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.0030000000000000027 0.009694003568069931</Position>
+<Axis>-1 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident131">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-7</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 -0.00030599643192996684</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-8</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 -0.00030599643192991133</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric81">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-7</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 -0.00030599643192996684</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-8</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident132">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-7</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 0.0096940035680699865</Position>
+<Axis>-1 0 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-8</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 0.0096940035680700976</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric82">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-2</Uid>
+</InstancePath>
+<Position>0 0 0.031500000000000007</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-4</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.0030000000000000027 -0.00030599643192980031</Position>
+<Axis>0 -1 -2.2046231588243792e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident133">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-2</Uid>
+</InstancePath>
+<Position>0 0 0.031500000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-3</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.00030599643192996684</Position>
+<Axis>0 -1 2.2046231588243792e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident134">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-4</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-1</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric83">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-4</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999818 -0.00030599643193007786</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric84">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-6</Uid>
+</InstancePath>
+<Position>0 2.2204460492503131e-16 0.029499999999999998</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-6</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.0030000000000000027 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident135">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-6</Uid>
+</InstancePath>
+<Position>0 2.2204460492503131e-16 0.031499999999999993</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-6</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0 -0.00030599643192985582</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric85">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-8</Uid>
+</InstancePath>
+<Position>0 0 0.029500000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Prop_22_66_CCW-7</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 -0.00030599643192996684</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident136">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-8</Uid>
+</InstancePath>
+<Position>0 0 0.0315</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Prop_22_66_CCW-8</Uid>
+</InstancePath>
+<Position>0 0 -0.00030599643192991133</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident137">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Device-1</Uid>
+</InstancePath>
+<Position>0 0.15398130817692487 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Device-1</Uid>
+</InstancePath>
+<Position>0 0.229873947144 0.42465612793000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.002 1.4947282997315978</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident139">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cover-2</Uid>
+</InstancePath>
+<Position>0.75439801805909801 0 0.42446123578640305</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident140">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.1489523527795259 0.002 1.4947282997315978</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cover-2</Uid>
+</InstancePath>
+<Position>0.5273876328039846 0 0.42446123578640305</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident141">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Autopilot-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident142">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>IMU-1</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0 0.013000000000000012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident143">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>0.04799999999999998 0 -0.074999999999999956</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident144">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>-0.048000000000000022 0 0.075000000000000067</Position>
+<Axis>1 0 -2.8912057932946783e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident145">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>IMU-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0 -0.013000000000000012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Autopilot-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0.019999999999999997 -0.025000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>0.049999999999999982 0.02 0.075000000000000067</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Distance name="Distance33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Autopilot-1</Uid>
+</InstancePath>
+<Position>0.049999999999999989 0.020000000000000004 0.024999999999999994</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>IMU-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0.029999999999999999 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>0.049999999999999982 0.02 0.075000000000000067</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Autopilot-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0.019999999999999997 -0.025000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>IMU-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0.029999999999999999 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>0.049999999999999982 0.02 0.075000000000000067</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident150">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>IMU-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0.029999999999999999 -0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000024 0.02 -0.074999999999999956</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>On-Board-Computer-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000024 0.02 0.075000000000000067</Position>
+<Axis>2.7755575615628914e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-1</Uid>
+</InstancePath>
+<Position>0.18599999999999994 0.055 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Autopilot-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0.019999999999999997 0.025000000000000008</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU Semi-solid 17000mAh 5C 22.2V 6S1P-3</Uid>
+</InstancePath>
+<Position>0 0.055 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CamBase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric86">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CamBase-1</Uid>
+</InstancePath>
+<Position>0 -0.0020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cam-YR-Arm-1</Uid>
+</InstancePath>
+<Position>0.0015000000000000005 0.034500000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident152">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CamBase-1</Uid>
+</InstancePath>
+<Position>-0.00049497474683058329 0 -0.00049497474683058394</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cam-YR-Arm-1</Uid>
+</InstancePath>
+<Position>0.0015000000000000005 0.032500000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident153">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cam-RP-Arm-1</Uid>
+</InstancePath>
+<Position>0.030999999999999993 0.0030000000000000304 0.031999999999999994</Position>
+<Axis>-1.1102230246251565e-16 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cam-YR-Arm-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000009 0.0015000000000000013 -0.031000000000000014</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric88">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Camera-1</Uid>
+</InstancePath>
+<Position>-0.030001 0 0.02598076211353316</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cam-RP-Arm-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000568 0</Position>
+<Axis>-1.0000000000000002 0 -3.4139358007223564e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent6">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Camera-1</Uid>
+</InstancePath>
+<Position>0 0 0.02598076211353316</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cam-RP-Arm-1</Uid>
+</InstancePath>
+<Position>0.029999999999999985 0.0030000000000000304 0.0014999999999999857</Position>
+<Axis>-0.99999999999999989 0 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent7">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Cover-2</Uid>
+</InstancePath>
+<Position>0.37843528002445842 0.11294985491275961 -0.99526706394519482</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CamBase-1</Uid>
+</InstancePath>
+<Position>-0.022983643075143126 0.002334936490538897 -0.022559379006431679</Position>
+<Axis>-0.35355339059327073 -0.86602540378443815 -0.35355339059327828</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent8">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Cover-2</Uid>
+</InstancePath>
+<Position>0.37843528002445842 0.11294985491275961 -0.99526706394519482</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CamBase-1</Uid>
+</InstancePath>
+<Position>0.022983643075143282 0.002334936490538897 0.022559379006431516</Position>
+<Axis>0.35355339059327323 -0.86602540378443815 0.35355339059327578</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent9">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Cover-2</Uid>
+</InstancePath>
+<Position>0.37843528002445842 0.11294985491275961 -0.99526706394519482</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CamBase-1</Uid>
+</InstancePath>
+<Position>-0.022559379006431436 0.002334936490538897 0.022983643075143358</Position>
+<Axis>-0.35355339059327456 -0.86602540378443815 0.35355339059327445</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric89">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cam-RP-Arm-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000291 0.026757359312880716</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cam-YR-Arm-1</Uid>
+</InstancePath>
+<Position>0.0015000000000000013 0 -0.030000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric90">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.12776092045395002 0.004756583509747541 0.36144238236031068</Position>
+<Axis>0.24325657276038476 0 -0.96996197853775268</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm1-8-1</Uid>
+</InstancePath>
+<Position>0.31027000000000016 -0.024123105625617661 -0.012156854249492421</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident154">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.11998590306312903 0.0075131670194952867 0.34277291250783676</Position>
+<Axis>-0.24325657276038479 0 0.96996197853775268</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm1-8-1</Uid>
+</InstancePath>
+<Position>0.3072700000000001 -0.027499999999999997 -0.0065000000000000058</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric91">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-1</Uid>
+</InstancePath>
+<Position>0 -0.012500000000000011 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm1-8-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0.012499999999999956</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric92">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-1</Uid>
+</InstancePath>
+<Position>0 0 0.030500000000000003</Position>
+<Axis>2.4176978704425106e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm1-8-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident155">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm1-8-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric93">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.12776092045395002 0.004756583509747541 0.36144238236031068</Position>
+<Axis>-0.24325657276038476 0 -0.96996197853775268</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm1-8-2</Uid>
+</InstancePath>
+<Position>0.31027000000000005 -0.024123105625617723 -0.012156854249492421</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident156">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.11998590306312903 0.0075131670194952867 0.34277291250783676</Position>
+<Axis>0.24325657276038479 0 0.96996197853775268</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm1-8-2</Uid>
+</InstancePath>
+<Position>0.30727000000000004 -0.027500000000000052 0.0065000000000000058</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric94">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-8</Uid>
+</InstancePath>
+<Position>0 0 0.030500000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm1-8-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000061 0</Position>
+<Axis>1.9673758598065908e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident157">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm1-8-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000061 0</Position>
+<Axis>-1.9673758598065908e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric95">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-8</Uid>
+</InstancePath>
+<Position>-0.012500000000000067 0 0.0010000000000000009</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm1-8-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000061 0.012500000000000011</Position>
+<Axis>1.9673758598065908e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric96">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.28881703144243137 0.0047565835097475445 0.95736361042831453</Position>
+<Axis>-0.30018888822615453 0 -0.95387977826639425</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm2-7-1</Uid>
+</InstancePath>
+<Position>0.31099999999999994 -0.024123105625617727 -0.01215685424949231</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident159">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.27995161434310911 0.007513167019495063 0.93918658152766521</Position>
+<Axis>0.30018888822615453 0 0.95387977826639414</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm2-7-1</Uid>
+</InstancePath>
+<Position>0.30799999999999994 -0.027500000000000063 0.0064999999999999503</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric97">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.37855079983564638 0.0047565835097474161 1.3269330853604351</Position>
+<Axis>0.28008915338523022 0 -0.95997399243726644</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm3-6-1</Uid>
+</InstancePath>
+<Position>0.33710999999999991 -0.024123105625617654 -0.01215685424949231</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident160">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.38127266092603923 0.0075131670194949519 1.306893338051534</Position>
+<Axis>-0.28008915338523027 0 0.95997399243726655</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm3-6-1</Uid>
+</InstancePath>
+<Position>0.33410999999999991 -0.02749999999999999 0.0064999999999999503</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric98">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.20250327308218039 0.0047565835097474682 1.4880402026063275</Position>
+<Axis>-0.93969262078590876 0 0.34202014332566749</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm4-5-1</Uid>
+</InstancePath>
+<Position>0.37519999999999998 -0.024123105625617713 -0.012156854249492366</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident161">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>0.19028842957718153 0.007513167019494971 1.4892935087409387</Position>
+<Axis>-0.93969262078590876 0 0.3420201433256676</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm4-5-1</Uid>
+</InstancePath>
+<Position>0.37219999999999986 -0.027500000000000045 0.0065000000000000058</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric99">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.28881703144243137 0.0047565835097475445 0.95736361042831453</Position>
+<Axis>0.30018888822615453 0 -0.95387977826639425</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm2-7-2</Uid>
+</InstancePath>
+<Position>0.311 -0.024123105625617664 -0.012156854249492421</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident162">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.27995161434310911 0.007513167019495063 0.93918658152766521</Position>
+<Axis>-0.30018888822615453 0 0.95387977826639414</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm2-7-2</Uid>
+</InstancePath>
+<Position>0.308 -0.0275 -0.0065000000000001723</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric100">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.37855079983564638 0.0047565835097474161 1.3269330853604351</Position>
+<Axis>-0.28008915338523022 0 -0.95997399243726644</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm3-6-2</Uid>
+</InstancePath>
+<Position>0.33711000000000002 -0.024123105625617664 -0.012156854249492532</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident163">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.37763150193203127 0.0075131670194950664 1.3193729999532182</Position>
+<Axis>-0.28008915338523027 0 -0.95997399243726655</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm3-6-2</Uid>
+</InstancePath>
+<Position>0.33411000000000002 -0.027499999999999997 0.0064999999999999503</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric101">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.64616650140487963 0.0047565835097474682 1.3265599934584158</Position>
+<Axis>0.93969262078590887 0 0.34202014332566755</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm4-5-2</Uid>
+</InstancePath>
+<Position>0.37519999999999998 -0.024123105625617692 -0.01215685424949231</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident164">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.17807242550696475 0.0075131670194949719 1.4937397706041724</Position>
+<Axis>-0.93969262078590876 0 -0.3420201433256676</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm4-5-2</Uid>
+</InstancePath>
+<Position>0.37219999999999986 -0.027500000000000028 0.0065000000000001168</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident165">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm2-7-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric102">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-2</Uid>
+</InstancePath>
+<Position>0.012499999999999956 -1.1102230246251565e-16 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm2-7-2</Uid>
+</InstancePath>
+<Position>0.012499999999999956 0.0030000000000000027 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric103">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-2</Uid>
+</InstancePath>
+<Position>0 0 0.030500000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm2-7-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident166">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm3-6-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric105">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Skin-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm3-6-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric106">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-3</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.012499999999999956 0.00099999999999999395</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm3-6-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 -0.012499999999999956</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric107">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-4</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm4-5-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident167">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm4-5-2</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric108">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-4</Uid>
+</InstancePath>
+<Position>0.012499999999999956 -2.2204460492503131e-16 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm4-5-2</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.0029999999999999992 0.012500000000000067</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric109">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-5</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm4-5-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>1.3399235696088659e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident168">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm4-5-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>-1.3399235696088659e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric110">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-5</Uid>
+</InstancePath>
+<Position>0.012499999999999956 -2.2204460492503131e-16 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm4-5-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0.012500000000000067</Position>
+<Axis>1.3399235696088659e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric111">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-6</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm3-6-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident169">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm3-6-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric112">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-6</Uid>
+</InstancePath>
+<Position>0.012500000000000178 0 0.00099999999999999395</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm3-6-1</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.0029999999999999923 0.012499999999999956</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric113">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-7</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>-1.1552254248016105e-16 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm2-7-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 0</Position>
+<Axis>2.3043857361979901e-16 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident170">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.1552254248016105e-16 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm2-7-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999957 0</Position>
+<Axis>-2.3043857361979901e-16 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric114">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tmotor_MN505S_Base-7</Uid>
+</InstancePath>
+<Position>0 -0.012500000000000067 0.0010000000000000078</Position>
+<Axis>-1.1552254248016105e-16 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm2-7-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 -0.012499999999999956</Position>
+<Axis>2.3043857361979901e-16 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric115">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_2nd-1</Uid>
+</InstancePath>
+<Position>0.013514718625761273 0.0099999999999999811 -0.43010000000000004</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo X20-7512-1</Uid>
+</InstancePath>
+<Position>0 0.010999999999999954 0.042199999999999994</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric116">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_2nd-1</Uid>
+</InstancePath>
+<Position>-0.002 0.010000000000000009 -0.43010000000000009</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm_1st-1</Uid>
+</InstancePath>
+<Position>0.035213203435596432 0 0.014999999999999986</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident171">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>TopView-1</Uid>
+</InstancePath>
+<Position>-0.029098859356132538 0.002 -0.0072976971828115494</Position>
+<Axis>-0.24325657276038509 0 0.96996197853775257</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cover-2</Uid>
+</InstancePath>
+<Position>0.15253749825914598 0 -0.29284815516753515</Position>
+<Axis>0.24325657276038509 0 -0.96996197853775235</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Arm1-8" uid="Arm1-8*:*Default" version="185">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm1-8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10379624274185559</Mass>
+<CenterOfMass>0.12211913460643321 -0.010533614063862032 -1.2485286502903616e-07</CenterOfMass>
+<Inertia>1.6158904407236615e-05 0.0011096708582413453 0.0011094571982849814 1.4179751746518807e-10 -1.3461105809166254e-09 2.4975336305190677e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm1-8_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm2-7" uid="Arm2-7*:*Default" version="224">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm2-7.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10398719413549457</Mass>
+<CenterOfMass>0.12246835687350337 -0.01053722410780129 -1.2487379330035156e-07</CenterOfMass>
+<Inertia>1.6185085672120763e-05 0.0011165777729851777 0.0011163648497931288 1.421260025061068e-10 -1.3523874315071132e-09 2.5046619879500669e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm2-7_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm3-6" uid="Arm3-6*:*Default" version="223">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm3-6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11081697617374556</Mass>
+<CenterOfMass>0.1349947649773548 -0.01065816462933932 -1.255749141048439e-07</CenterOfMass>
+<Inertia>1.7119844941638286e-05 0.0013821927224549439 0.0013820044819435647 1.5388464447526687e-10 -1.5868173761549477e-09 2.7603551953755874e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm3-6_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm4-5" uid="Arm4-5*:*Default" version="242">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm4-5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12078045368569504</Mass>
+<CenterOfMass>0.15337579263181644 -0.010810065107591103 -1.2645551710900276e-07</CenterOfMass>
+<Inertia>1.8478492263152063e-05 0.0018379707013682653 0.001837813462936378 1.7106750031626627e-10 -1.963464064059362e-09 3.1355653950242238e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm4-5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm_1st" uid="Arm_1st*:*Default" version="1353">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm_1st.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16873284833265995</Mass>
+<CenterOfMass>-0.00035396098457762023 0.26633230800405416 0.015826553931266911</CenterOfMass>
+<Inertia>0.0041919687733073738 4.3947486683444391e-05 0.0041998200411155189 2.5593586099560636e-05 -1.0592208236215156e-07 -1.6677034554179664e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm_1st_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm_2nd" uid="Arm_2nd*:*Default" version="1043">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm_2nd.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095460756469149782</Mass>
+<CenterOfMass>0.011973028720237299 0.010066107349775913 -0.22649897151714948</CenterOfMass>
+<Inertia>0.0014964789575225314 0.0014999652392548859 1.4622489473389641e-05 -1.4452079882564057e-06 -4.8053039220950028e-07 5.0531494326114073e-09</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm_2nd_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm_Base" uid="Arm_Base*:*Default" version="539">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Arm_Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.054098575546351065</Mass>
+<CenterOfMass>0.017878685742052917 0.029500000000000054 -0.11972488659606026</CenterOfMass>
+<Inertia>9.6386193041502483e-05 0.0001126361413511794 8.1450833008680617e-05 0 -1.6808721345033275e-05 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Arm_Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Autopilot" uid="Autopilot*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Autopilot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0026429080545464752</Mass>
+<CenterOfMass>0 0.014316427747116344 0</CenterOfMass>
+<Inertia>1.0365629736097021e-06 3.8559317799702627e-06 3.0448279260983316e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Autopilot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cam-RP-Arm" uid="Cam-RP-Arm*:*Default" version="436">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cam-RP-Arm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016798216653092755</Mass>
+<CenterOfMass>0.0021356499608335263 0.001500039188666355 0.015828704227486199</CenterOfMass>
+<Inertia>2.1298251936694457e-07 1.2488349478883225e-06 1.0922200995857039e-06 1.0764960509433476e-12 5.6285249259664687e-08 1.4444465625177142e-13</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Cam-RP-Arm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.82745098039215681" b="0.81960784313725488" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.82745098039215681" b="0.81960784313725488" a="1"/>
+<Specular r="0.5792156862745097" g="0.5792156862745097" b="0.57372549019607832" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cam-YR-Arm" uid="Cam-YR-Arm*:*Default" version="765">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cam-YR-Arm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00081122160379799965</Mass>
+<CenterOfMass>0.0014996619826883983 0.017339126328797843 -0.020595268918979073</CenterOfMass>
+<Inertia>2.6531204106732957e-07 1.4545630565139742e-07 1.4694560171498666e-07 -1.136097691513237e-07 -3.0058291016038202e-12 -3.6321094979708024e-12</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Cam-YR-Arm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.82745098039215681" b="0.81960784313725488" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.82745098039215681" b="0.81960784313725488" a="1"/>
+<Specular r="0.5792156862745097" g="0.5792156862745097" b="0.57372549019607832" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CamBase" uid="CamBase*:*Default" version="222">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CamBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00088381554643998488</Mass>
+<CenterOfMass>9.2911604465186667e-11 -0.00024907216848031556 8.4877808487979172e-11</CenterOfMass>
+<Inertia>1.3355885971046702e-07 2.6117198048665874e-07 1.3355885978687683e-07 1.3516840792704908e-15 4.5477400038712292e-15 1.5070146482850164e-15</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/CamBase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.82745098039215681" b="0.81960784313725488" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.82745098039215681" b="0.81960784313725488" a="1"/>
+<Specular r="0.5792156862745097" g="0.5792156862745097" b="0.57372549019607832" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera" uid="Camera*:*Default" version="205">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Camera.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1083253723038029</Mass>
+<CenterOfMass>5.7143047031135625e-11 -1.2036725016515444e-10 0.026468477044945812</CenterOfMass>
+<Inertia>3.6472448019650823e-05 3.9421683978295159e-05 3.7688091068915493e-05 -2.5049490142339932e-15 1.3663562094117845e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Camera_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cover" uid="Cover*:*Default" version="1904">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.097444027531053329</Mass>
+<CenterOfMass>0.37909180736546705 0.10995892712576244 -0.15274345937093334</CenterOfMass>
+<Inertia>0.016419427910540949 0.019947962826892495 0.0039796790563735107 -0.00046706973917458327 -6.7084025660796272e-06 1.2624278641880473e-06</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Cover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.40392156862745099" g="0.40392156862745099" b="0.40392156862745099" a="1"/>
+<Diffuse r="0.40392156862745099" g="0.40392156862745099" b="0.40392156862745099" a="1"/>
+<Specular r="0.40392156862745099" g="0.40392156862745099" b="0.40392156862745099" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Device" uid="Device*:*Default" version="156">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Device.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.8001689453889949</Mass>
+<CenterOfMass>0.064463064131882325 0.15398130817692487 0.22039342367870746</CenterOfMass>
+<Inertia>0.092657539855620488 0.071645971267441017 0.030908268391450246 0.00016833043032960405 -0.00018079726862137345 3.9750630461767229e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Device_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FLAME 70A 6S" uid="FLAME 70A 6S*:*Default" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FLAME 70A 6S.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.054980977850639011</Mass>
+<CenterOfMass>0.0014375293446350179 0.0064436863062635559 -6.4950885223942603e-05</CenterOfMass>
+<Inertia>4.7331161301667667e-06 1.8705328138560948e-05 1.5601783363641667e-05 1.7181014023828778e-08 -3.7819686447438394e-08 9.4864336042855284e-08</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/FLAME 70A 6S_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="IMU" uid="IMU*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="IMU.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0033160153174040196</Mass>
+<CenterOfMass>0 0.018207333534288203 0</CenterOfMass>
+<Inertia>7.8703676225397721e-07 1.5146374978604153e-06 1.3643891964714257e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/IMU_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="On-Board-Computer" uid="On-Board-Computer*:*Default" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="On-Board-Computer.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0049409368578893992</Mass>
+<CenterOfMass>0 0.015840781708156049 0</CenterOfMass>
+<Inertia>1.2201234951420543e-05 1.7983921129320389e-05 6.1502254975317745e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/On-Board-Computer_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="0.35137254901960779" g="0.35137254901960779" b="0.69999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Prob" uid="Prob*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Prob.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17750153147915865</Mass>
+<CenterOfMass>0.62803517589439817 -0.00033508912822590684 -1.5899145851422267e-05</CenterOfMass>
+<Inertia>1.0336349009388309e-05 0.029985255668532447 0.029986924642624813 -7.9367347412892126e-08 1.2698559613357534e-06 2.6763382827784275e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Prob_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ProbrHolder" uid="ProbrHolder*:*Default" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ProbrHolder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.017019920979830024</Mass>
+<CenterOfMass>7.3469941094616634e-05 0.00053745417119795721 0.012500005459138848</CenterOfMass>
+<Inertia>2.4685874696682062e-06 2.677177589550858e-06 3.3367489194187264e-06 -1.5820442507486692e-13 -2.1985594892189318e-12 6.7710728706630002e-10</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/ProbrHolder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Prop_22_66_CCW" uid="Prop_22_66_CCW*:*Default" version="1486">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Prop_22_66_CCW.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022500103580256798</Mass>
+<CenterOfMass>0.12746266896089337 0.0073252851940865506 0.0040669358640343465</CenterOfMass>
+<Inertia>2.7191696415617269e-06 6.6285781983594028e-05 6.4101532428703314e-05 4.6363797417016717e-07 4.0299225047680469e-07 -1.4908172159750303e-06</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Prop_22_66_CCW_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Prop_22_66_CW" uid="Prop_22_66_CW*:*Default" version="1500">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Prop_22_66_CW.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022497903573155679</Mass>
+<CenterOfMass>0.12746733732688928 0.0073811775801023915 -0.0041245155383763978</CenterOfMass>
+<Inertia>2.7132525773612381e-06 6.6277438043521624e-05 6.4087060505909905e-05 -4.526248447379686e-07 -5.0603535343601405e-07 -1.4729792015263392e-06</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Prop_22_66_CW_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo D5545GS" uid="Servo D5545GS*:*Default" version="288">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo D5545GS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.075001579743296978</Mass>
+<CenterOfMass>0 5.5109677614815005e-05 0.01885640985266655</CenterOfMass>
+<Inertia>1.9193893572346868e-05 1.129362192910373e-05 1.3030055061525959e-05 -8.6340957484926251e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Servo D5545GS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo PGS-CX II" uid="Servo PGS-CX II*:*Default" version="288">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo PGS-CX II.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.058975751999272387</Mass>
+<CenterOfMass>0 5.5109677614814463e-05 0.01885640985266655</CenterOfMass>
+<Inertia>1.509267286232493e-05 8.8804775625261672e-06 1.0245881466438013e-05 -6.7892208583323808e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Servo PGS-CX II_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo SSPS-105" uid="Servo SSPS-105*:*Default" version="194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo SSPS-105.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.77989587849788145</Mass>
+<CenterOfMass>0.02749999999999999 0.046087591649901921 -0.056799253360739967</CenterOfMass>
+<Inertia>0.0014612350081692354 0.001069806078026081 0.00076051036768434851 -4.0539774511204905e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Servo SSPS-105_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo X20-7512" uid="Servo X20-7512*:*Default" version="288">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo X20-7512.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.070002211454292543</Mass>
+<CenterOfMass>0 5.5109677614814646e-05 0.01885640985266655</CenterOfMass>
+<Inertia>1.7914489282509994e-05 1.0540824780915498e-05 1.2161512768129853e-05 -8.0585742109865912e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Servo X20-7512_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P" uid="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TATTU Semi-solid 17000mAh 5C 22.2V 6S1P.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.44000428666279</Mass>
+<CenterOfMass>0.092162781613667671 0.0275 -0.035749999999999997</CenterOfMass>
+<Inertia>0.00096981878326690436 0.0046885969210825468 0.0044340763541756865 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/TATTU Semi-solid 17000mAh 5C 22.2V 6S1P_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tmotor_MN505S_Base" uid="Tmotor_MN505S_Base*:*Default" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tmotor_MN505S_Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064324996184727326</Mass>
+<CenterOfMass>0 0 0.00078317635243343022</CenterOfMass>
+<Inertia>1.4146120811393177e-05 1.4146120811393172e-05 2.8220336874912071e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Tmotor_MN505S_Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.30000001192092896" g="0.30000001192092896" b="0.30000001192092896" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tmotor_MN505S_Skin" uid="Tmotor_MN505S_Skin*:*Default" version="385">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tmotor_MN505S_Skin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18249389307658109</Mass>
+<CenterOfMass>0 0 0.02214906632757321</CenterOfMass>
+<Inertia>6.1027221243423169e-05 6.1027221243423149e-05 9.5624915340994303e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/Tmotor_MN505S_Skin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.30000001192092896" g="0.30000001192092896" b="0.30000001192092896" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TopView" uid="TopView*:*Default" version="4206">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TopView.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.5679120969177918</Mass>
+<CenterOfMass>-9.6905772628219834e-05 -0.047675506546105903 0.8771466402251199</CenterOfMass>
+<Inertia>0.48895896694612045 0.5926453534657492 0.15927324881762994 -0.026553636693284741 3.0390533115865261e-05 -5.7840679223415225e-05</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/TopView_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wrist_1st_joint" uid="wrist_1st_joint*:*Default" version="558">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wrist_1st_joint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0051072608386890893</Mass>
+<CenterOfMass>-0.0063997045344514327 -2.9450361174281279e-05 -0.0029369001648672957</CenterOfMass>
+<Inertia>2.6079159593161093e-06 3.7772469096259949e-06 1.3240203802699242e-06 3.9011937416848622e-09 -5.5414266085486946e-07 9.6259142669123686e-10</Inertia>
+</MassProperties>
+<GeometryFile name="SolidworksOutput/wrist_1st_joint_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

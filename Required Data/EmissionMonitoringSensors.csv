@@ -1,0 +1,5 @@
+Device,Weight (g),Dim 1,Dim 2,Dim 3,Max Dim,Norm.W,Norm.D,Cost,Link,Disc
+Testo 350,4800,300,128,438,438,0.71641791,0.983164983,1.699582894,https://www.testo.com/en-UK/testo-350/p/0632-3510#tab-technicalData,
+MRU NOVA Plus,7400,470,314,235,470,1.104477612,1.054994388,2.159472,https://www.mru.eu/en/products/detail/novaplus/,
+MRU VARIO Luxx,7500,430,290,150,430,1.119402985,0.965207632,2.084610617,https://www.mru.eu/en/products/detail/varioluxx/,
+AMETEK Land Lancom 4,6000,453,120,245,453,0.895522388,1.016835017,1.912357405,https://www.atecorp.com/products/ametek-land/lancom-4?srsltid=AfmBOopAMYMR6IyrwvwTXpxDIF3mEguDjfn0ysYo3UwLeb-uPD-NTX0n,

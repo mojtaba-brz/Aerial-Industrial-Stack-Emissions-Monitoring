@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/04/25||08:39:05" using="Simscape Multibody Link Version 7.4" from="SolidWorks 27.5.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="StandardizedFlangeAndCover2" uid="StandardizedFlangeAndCover2" version="689">
+<AssemblyFile name="StandardizedFlangeAndCover2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Nut-4" uid="Nut-4" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 1</Rotation>
+<Translation>-0.024412141966998931 -0.057170105144124406 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-5" uid="Nut-5" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.24207324885312417 0.20402645407729283 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-1" uid="Nut-1" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 1</Rotation>
+<Translation>0.036059056053841881 0.058036067682429908 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-3" uid="Bolt-3" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.17221072365505685 0.98506013352393962 0 -0.98506013352393962 -0.17221072365505685 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.24207324885312392 0.20402645407729253 0.020031639253901695</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-1" uid="Bolt-1" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>0.91832680701789493 -0.39582303560090876 0 0.39582303560090876 0.91832680701789493 0 0 0 1</Rotation>
+<Translation>0.036059056053841423 0.058036067682429859 0.020031639253901778</Translation>
+</Transform>
+</Instance>
+<Instance name="TypicalFlange-1" uid="TypicalFlange-1" grounded="true" entityUid="TypicalFlange*:*Default">
+<Transform>
+<Rotation>-0.64017972613569551 0.76822517418060843 0 0.76822517418060843 0.64017972613569551 0 0 0 -1</Rotation>
+<Translation>-0.13324269541005671 0.073428174466578358 0.057031639253901902</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-5" uid="Bolt-5" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.29690242808153355 0.95490782183375666 0 -0.95490782183375666 -0.29690242808153355 0 0 0 1</Rotation>
+<Translation>-0.3025444468739647 0.088820281250738542 0.020031639253901806</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-6" uid="Bolt-6" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.72387576341483839 0.68993034368737916 0 -0.68993034368737916 -0.72387576341483839 0 0 0 1</Rotation>
+<Translation>-0.26384097502076992 -0.035402378976478133 0.020031639253901806</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-7" uid="Bolt-7" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.38615983919496832 0.92243188290134259 0 -0.92243188290134259 -0.38615983919496832 0 0 0 1</Rotation>
+<Translation>-0.1486348021942159 -0.095873576997318868 0.020031639253901806</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-8" uid="Bolt-8" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.74825487400791313 0.6634113682500492 0 -0.6634113682500492 -0.74825487400791313 0 0 0 1</Rotation>
+<Translation>-0.0026444157993532579 0.18225872790964656 0.020031639253901806</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-2" uid="Nut-2" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>0.92372802134706822 0.38304900806323788 0 0.38304900806323777 -0.92372802134706822 0 0 0 -1</Rotation>
+<Translation>-0.11785058862590728 0.24272992593048787 0.092031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-3" uid="Nut-3" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 1</Rotation>
+<Translation>-0.26384097502077009 -0.035402378976478452 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-4" uid="Bolt-4" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.9816692915049271 0.19059224044072343 0 -0.19059224044072343 -0.9816692915049271 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.11785058862590728 0.24272992593048731 0.020031639253901792</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-7" uid="Nut-7" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 1</Rotation>
+<Translation>-0.0026444157993529629 0.18225872790964714 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-8" uid="Nut-8" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 1</Rotation>
+<Translation>-0.14863480219421585 -0.09587357699731934 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+<Instance name="StandardizedFlangeAndCover-1" uid="StandardizedFlangeAndCover-1" entityUid="StandardizedFlangeAndCover" rigid="true">
+<Transform>
+<Rotation>0.99589265567002105 0.09054180461263682 0 -0.09054180461263682 0.99589265567002105 0 0 0 1</Rotation>
+<Translation>-0.017269942728191167 -0.20122044403501196 -0.25736029155453194</Translation>
+</Transform>
+<Instance name="StandardizedCover-1" uid="StandardizedCover-1" grounded="true" entityUid="StandardizedCover*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.14036359420720748 0.26302015974194504 0.29239193080843373</Translation>
+</Transform>
+</Instance>
+<Instance name="StandardizedDoor-1" uid="StandardizedDoor-1" entityUid="StandardizedDoor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.62115482000588529 -0.78368787765503722 0 -0.78368787765503722 -0.62115482000588529</Rotation>
+<Translation>-0.14036359420720748 0.29522200004144478 0.38900540040911213</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bolt-9" uid="Bolt-9" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>-0.66129565738858442 0.75012535853615836 0 -0.75012535853615836 -0.66129565738858442 0 0 0 1</Rotation>
+<Translation>-0.024412141966999239 -0.057170105144124135 0.020031639253901778</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-6" uid="Nut-6" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 1</Rotation>
+<Translation>-0.30254444687396492 0.088820281250738542 0.077031639253901801</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.16617141287009451 0.058087556882545188 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.17000000000000004 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.035934750128607779 0.37215508414055432 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>1.532107773982716e-14 -0.17000000000000007 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.05435750607769968</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.10000000000000003 1.0408340855860843e-16</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-8</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.16617141287009451 0.058087556882545188 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-8</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-3</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.25808684512835567 0.28023965188229311 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-3</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999946</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-4</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.258138334328471 0.15012729506604053 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-4</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999973</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-5</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.16604710694486033 0.37220657334066959 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-5</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-6</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.035934750128607779 0.37215508414055432 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-6</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-7</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>-0.056032171329768732 0.280115345957059 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-7</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-4</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999973</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-9</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>-0.055980682129653431 0.1500029891408064 0.034357506077699676</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-9</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-3</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999946</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-5</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-8</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-7</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-4</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-9</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-7</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-8</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-6</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-3</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-5</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-6</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.20500000000000013 -0.0199999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>-0.1202081528017109 0.12020815280170767 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bolt-1</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>0.10105308149934408 0.21512132051154681 0.034357506077699676</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 -0.21931712199461309</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0.17000000000000762 7.6327832942979512e-15 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-3</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999946</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0.12020815280172617 -0.12020815280170771 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-5</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>1.532107773982716e-14 -0.17000000000000007 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-6</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>-0.12020815280170008 -0.12020815280171854 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-7</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0.12020815280171535 0.12020815280171854 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-4</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999973</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.17000000000000004 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-8</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>-0.16999999999999243 -7.6813555516253018e-15 -0.062426406871195293</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-9</Uid>
+</InstancePath>
+<Position>0 0 0.095000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Bolt-4</Uid>
+</InstancePath>
+<Position>0 0 0.094999999999999973</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0.17000000000000001 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TypicalFlange-1</Uid>
+</InstancePath>
+<Position>0 0.10000000000000003 1.0408340855860843e-16</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-8</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-4</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-9</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-7</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-6</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-5</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bolt-3</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover-1</Uid>
+<Uid>StandardizedCover-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>StandardizedFlangeAndCover2</Uid>
+</InstancePath>
+<Position>-0.13324269541005648 0.073428174466583243 -0.00010000000000003062</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="StandardizedFlangeAndCover" uid="StandardizedFlangeAndCover" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="StandardizedFlangeAndCover.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Bolt" uid="Bolt*:*Default" version="243">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bolt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.61325907596761076</Mass>
+<CenterOfMass>-8.6616760237716362e-07 -3.8933992549295034e-06 0.038931919765179845</CenterOfMass>
+<Inertia>0.00057447752873496997 0.00057447780512577833 9.9751272543480244e-05 -2.6392194282089458e-08 2.6896793681860602e-08 5.6587273511860698e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078432148578124" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nut" uid="Nut*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nut.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.08775382411327691</Mass>
+<CenterOfMass>0 0 0.0074999999999999997</CenterOfMass>
+<Inertia>1.1299701468310294e-05 1.129970161305115e-05 1.9325262752390319e-05 0 0 5.8540985499328242e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Nut_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078432148578124" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="StandardizedCover" uid="StandardizedCover*:*Default" version="247">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="StandardizedCover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>16.810218145607823</Mass>
+<CenterOfMass>0 0.00058597509344081452 0.010035527913861267</CenterOfMass>
+<Inertia>0.20072300566274845 0.20029669980913437 0.39986661946758328 -7.0934494109537949e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="StandardizedCover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078432148578124" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="StandardizedDoor" uid="StandardizedDoor*:*Default" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="StandardizedDoor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.09240015286372083</Mass>
+<CenterOfMass>0 0.027563737922442794 0.0068501751611203541</CenterOfMass>
+<Inertia>0.00025517435660574092 0.00019233760627610319 0.00044181037839790036 1.4063278798121275e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="StandardizedDoor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TypicalFlange" uid="TypicalFlange*:*Default" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TypicalFlange.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>25.004236962811429</Mass>
+<CenterOfMass>0 0 -0.095006364781629354</CenterOfMass>
+<Inertia>0.64624280055952799 0.64624280055952776 0.49023780111284515 0 7.6713907354857013e-16 6.807780411937731e-16</Inertia>
+</MassProperties>
+<GeometryFile name="TypicalFlange_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078432148578124" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
