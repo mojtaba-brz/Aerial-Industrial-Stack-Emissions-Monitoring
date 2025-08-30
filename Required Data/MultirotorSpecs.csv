@@ -1,0 +1,34 @@
+Name,Company,Application,Max Takeoff Weight (Kg),Empty Weight (inc.battery; Kg),Max Flight Time (Empty; min),Max Flight Time (inc.Camera; min),Max Flight Time (Max Takeoff; min),Link (Technical Specs or Datasheet)
+Fly Cart 30,DJI,Cargo,95,65,29,,18,https://www.dji.com/global/flycart-30/specs
+AGRAS T10,DJI,Agriculture,24.8,16.8,17,,9,https://www.dji.com/global/t10/specs
+AGRAS T30,DJI,Agriculture,78,36.5,20.5,,7.8,https://www.dji.com/global/t30/specs
+AGRAS T40,DJI,Agriculture,101,58,18,,6,https://www.dji.com/global/t40/specs
+AGRAS T20P,DJI,Agriculture,58,32,14.5,,6,https://www.dji.com/global/t20p/specs
+AGRAS T25,DJI,Agriculture,58,32,,,,https://ag.dji.com/t25/specs
+AGRAS T50,DJI,Agriculture,103,52,,,,https://ag.dji.com/t50/specs
+Matrice 350 RTK,DJI,Inspection; Reconnaissance,9.2,6.47,,,55,https://enterprise.dji.com/matrice-350-rtk/specs
+Alpha,Autel,Inspection; Reconnaissance,8.4,5.535,,40,,https://www.autelrobotics.com/productdetail/autel-alpha/#jsgg
+X10,Skydio,Inspection; Reconnaissance,2.49,2.11,,40,,https://www.skydio.com/x10/technical-specs
+ANAFI Ai,Parrot,Inspection; Reconnaissance,0.898,,,32,,https://www.parrot.com/assets/s3fs-public/2023-02/ANAFI-Ai-product-sheet.pdf
+ANAFI USA,Parrot,Inspection; Reconnaissance,0.644,,,32,,https://www.parrot.com/assets/s3fs-public/2023-02/ANAFI-USA-product-sheet.pdf
+Elios 3,Flyability,Inspection (indoor),2.4,1.96,,11.5,9.1,https://mkt.flyability.com/l/1071832/2024-12-18/3vk79m/1071832/17345065107ZOvnRU4/20241216_E3_tech_specs_Web.pdf
+SHERPA,Lucid Bots,Window Cleaning,17.54,15.81,,,,https://22607993.fs1.hubspotusercontent-na1.net/hubfs/22607993/Customer%20Success/Knowledge%20Base/Sherpa/User%20Manual/Lucid%20Sherpa%20Specification%20Sheet.pdf
+BLACK WIDOW,TEAL Drones,Reconnaissance,1.63,,,35,,https://tealdrones.com/black-widow/
+UAS: AD-F,Action Drones,Reconnaissance,6.7,3.7,,45,,https://actiondroneusa.com/systems/#next
+ASW Heavy Lift Octocopter Industrial Drone (66 lbs.),Aero Systems West,Cargo,72,43,,50,,https://aerosystemswest.com/product/asw-heavy-lift-octocopter-industrial-drone/
+ASW Heavy Lift Hexacopter Industrial Drone (56 lbs.),Aero Systems West,Cargo,45,25,,55,,https://aerosystemswest.com/product/asw-heavy-lift-hexacopter-industrial-drone/
+ASW Heavy Lift Quadcopter Industrial Drone (31 lbs.),Aero Systems West,Cargo,32,21,,50,,https://aerosystemswest.com/product/asw-heavy-lift-quadcopter-industrial-drone/
+ASW Intermediate Lift Quadcopter Industrial Drone (11 lbs.),Aero Systems West,Cargo,12,7,,43,,https://aerosystemswest.com/product/asw-intermediate-lift-quadcopter-industrial-drone/
+Sensus D12,ISS Aerospace,Photography,50,25,10,,20,https://www.issaerospace.com/wp-content/uploads/2025/02/Sensus-D12_Data-Sheet.pdf
+Sensus M8,ISS Aerospace,Reconnaissance,23,11,45,,25,https://www.issaerospace.com/sensus-m/?utm_source=unmannedsystemstechnology.com&utm_medium=referral
+Sensus L8,ISS Aerospace,Cargo,38,20,55,,25,https://www.issaerospace.com/sensus-l/?utm_source=unmannedsystemstechnology.com&utm_medium=referral
+C100,PDW,Cargo; Reconnaissance,14.2,9.7,,74,,https://www.pdw.ai/s/C100_Defense_14.pdf
+ScanLift M-Series X4,InnoFlight,Cargo,15.5,11.5,,45,,https://innoflighttechnology.com/wp-content/uploads/ScanLift-M-Series-X4-Specification-Sheet.pdf
+ScanLift M-Series X8,InnoFlight,Cargo,25,17,,35,,https://innoflighttechnology.com/wp-content/uploads/ScanLift-SL-800-X8_Specifications_V01-1.pdf
+BVQ418,Byond Vision,Reconnaissance,18,11,,90,,https://beyond-vision.com/bvq418-smart-quadcopter/specs/
+HEIFU  Pro,Byond Vision,Reconnaissance,15.5,12,,60,,https://beyond-vision.com/heifu-pro-tactical-drone/specs/
+IF1200,Inspired Flight,Reconnaissance,29,16.3,,,,https://www.inspiredflight.com/if1200-specs.php
+IF800,Inspired Flight,Reconnaissance,18,8.5,,,,https://www.inspiredflight.com/if800-specs.php
+Gryphon GD-21CM Pro Octocopter System,The Bionic Eye,Agriculture,13.7,8.7,30,,22,https://shop.thebioniceye.co.uk/collections/gryphon-ready-to-fly-drones/products/gd-21cm
+Gryphon GD-200X Hyper Lift Cargo Drone,The Bionic Eye,Cargo,162,122,44,,25,https://shop.thebioniceye.co.uk/collections/gryphon-ready-to-fly-drones/products/gd-200x-hyper-cargo
+Gryphon GD-25XM Pro 940mm Compact Drone,The Bionic Eye,Reconnaissance,17.5,12.5,32,,20,https://shop.thebioniceye.co.uk/collections/gryphon-ready-to-fly-drones/products/gd-225xm
