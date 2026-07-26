@@ -1,10 +1,40 @@
-function factor = get_motor_failure_factor(num_of_motors, is_coaxial)
+function factor = get_motor_failure_factor(num_of_motors, is_coaxial, motor_positions, user_yaw_factor)
+%GET_MOTOR_FAILURE_FACTOR Maximum thrust factor after a single motor loss.
+%
+%   factor = GET_MOTOR_FAILURE_FACTOR(N, IS_COAXIAL) uses the original
+%   equally spaced motor geometry and alternating yaw coefficients.
+%
+%   factor = GET_MOTOR_FAILURE_FACTOR(N, IS_COAXIAL, MOTOR_POSITIONS)
+%   uses the supplied N-by-2 matrix of [x, y] motor positions.
+%
+%   factor = GET_MOTOR_FAILURE_FACTOR(N, IS_COAXIAL, MOTOR_POSITIONS,
+%   USER_YAW_FACTOR) also uses the supplied N-element yaw-coefficient
+%   vector. Empty optional inputs retain the original defaults.
+
 r_x = zeros(num_of_motors, 1);
 r_y = zeros(num_of_motors, 1);
 yaw_factor = zeros(num_of_motors, 1);
 thr_factor = zeros(num_of_motors, 1);
 L = 1;
-coaxial_thrust_factor = 1; 
+coaxial_thrust_factor = 1;
+
+use_user_positions = nargin >= 3 && ~isempty(motor_positions);
+use_user_yaw_factor = nargin >= 4 && ~isempty(user_yaw_factor);
+
+if use_user_positions
+    if ~isequal(size(motor_positions), [num_of_motors, 2])
+        error('motor_positions must be a num_of_motors-by-2 matrix of [x, y] coordinates.')
+    end
+    r_x = motor_positions(:, 1);
+    r_y = motor_positions(:, 2);
+end
+
+if use_user_yaw_factor
+    if numel(user_yaw_factor) ~= num_of_motors
+        error('user_yaw_factor must contain one coefficient per motor.')
+    end
+    yaw_factor = user_yaw_factor(:);
+end
 
 if is_coaxial
     if (mod(num_of_motors, 2) ~= 0)
@@ -19,10 +49,14 @@ end
 
 
 for i = 1 : num_of_motors
-    psi_motor_installation = (1.5 - i) * theta;
-    r_x(i) = L * cos(psi_motor_installation);
-    r_y(i) = L * sin(psi_motor_installation);
-    yaw_factor(i) = (-1)^(i+1)/num_of_motors * 2;
+    if ~use_user_positions
+        psi_motor_installation = (1.5 - i) * theta;
+        r_x(i) = L * cos(psi_motor_installation);
+        r_y(i) = L * sin(psi_motor_installation);
+    end
+    if ~use_user_yaw_factor
+        yaw_factor(i) = (-1)^(i+1)/num_of_motors * 2;
+    end
     thr_factor(i) = 1/num_of_motors;
 end
 
