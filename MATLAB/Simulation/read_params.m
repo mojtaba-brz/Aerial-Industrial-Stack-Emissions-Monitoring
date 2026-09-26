@@ -40,17 +40,6 @@ params.tm_y2center = (params.center2asm + params.asm2tm_y);
 params.tm_xrotf_deg = data(31, 1:3)';
 params.tm_yrotf_deg = data(32, 1:3)';
 
-% Manipulator Trajectory
-params.t_arm_lift_up = 2;
-params.t_arm_wait = 0.3;
-params.t_arm_forward_time = 6;
-params.t_flange_placement = params.t_arm_lift_up + params.t_arm_wait + params.t_arm_forward_time;
-max_reaction_time_for_testo_350 = 40; %sec
-params.t_inspection = max_reaction_time_for_testo_350 * 3 * 0; % part 3-2 ) Assumption 3
-params.t_probe_backward = params.t_arm_forward_time;
-params.t_probe_down     = params.t_arm_lift_up;
-params.t_flight_backward = 10;
-
 % Arm params
 data_table = readtable("Data.xlsx", "Sheet", 2, 'VariableNamingRule', 'preserve');
 for i = 1:height(data_table)
@@ -136,6 +125,16 @@ if params.waypoint_mode(1) == params.TAKEOFF_MODE
 end
 
 params.psi_0_deg = atan2d(params.waypoint(2, 2)-params.waypoint(2, 1), params.waypoint(1, 2)-params.waypoint(1, 1));
+
+% Manipulator Trajectory --------------------------------------------------
+params.t_arm_lift_up = 2;
+params.t_arm_wait = 0.3;
+params.t_arm_forward_time = 6;
+params.t_flange_placement = params.t_arm_lift_up + params.t_arm_wait + params.t_arm_forward_time;
+params.t_inspection = params.sampling_time;
+params.t_probe_backward = params.t_arm_forward_time;
+params.t_probe_down     = params.t_arm_lift_up;
+params.t_flight_backward = 10;
 
 % Camera ------------------------------------------------------------------
 params.thrd_person_cam_rel_pos = [7; -2; -3];

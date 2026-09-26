@@ -1,0 +1,20 @@
+CAD-based single-motor-loss analysis
+====================================
+The thrust factor is the largest motor command divided by the hover command.
+A larger factor therefore represents a worse case.
+
+Motor    x_b (m)    y_b (m)    r_i (m)    T_h r_i (N m)    factor
+M1       +0.822     -0.425      0.926           24.0        1.5929
+M2       +0.244     -0.581      0.630           16.3        1.5397
+M3       -0.314     -0.706      0.772           20.0        1.5056
+M4       -0.752     -0.314      0.815           21.1        1.6040
+M5       -0.752     +0.314      0.815           21.1        1.6040
+M6       -0.314     +0.706      0.772           20.0        1.5056
+M7       +0.244     +0.581      0.630           16.3        1.5397
+M8       +0.822     +0.425      0.926           24.0        1.5929
+
+Maximum single-motor-loss factor: 1.6040
+Governing failed motor(s):        M4, M5
+Required thrust per motor:        41.6 N (4.24 kgf)
+Available maximum thrust:         65.5 N (6.68 kgf)
+Available thrust reserve:         24.0 N (2.44 kgf)
