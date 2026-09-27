@@ -214,3 +214,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+slprj/
+
+# MATLAB Project metadata generated when Simulation.prj is opened.
+# Simulation.prj itself is the versioned project definition.
+MATLAB/Simulation/resources/project/
